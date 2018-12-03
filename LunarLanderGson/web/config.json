@@ -1,0 +1,12 @@
+[
+    {
+        "nombre": "default",
+        "modoDificil": "false",
+        "colorNave": "blanco"
+    },
+    {
+        "nombre": "alternative",
+        "modoDificil": "true",
+        "colorNave": "amarillo"
+    }
+]
