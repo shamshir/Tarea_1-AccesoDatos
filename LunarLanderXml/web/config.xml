@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuraciones>
+	<configuracion nombre="default">
+		<modoDificil>false</modoDificil>
+		<colorNave>blanco</colorNave>
+	</configuracion>
+	<configuracion nombre="alternative">
+		<modoDificil>true</modoDificil>
+		<colorNave>amarillo</colorNave>
+	</configuracion>
+</configuraciones>
