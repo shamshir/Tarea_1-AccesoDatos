@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head> 
+		<title>Lunar Lander</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Lunar Lander Project - Javascript Definitive Version">
+		<meta name="author" content="Javier Vañó">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel='stylesheet' media='screen and (min-width: 720px)' href='css/desktopCss.css'>
+		<link rel='stylesheet' media='screen and (max-width: 720px)' href='css/mobileCss.css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                <script src="js/js.js"></script>
+	</head>
+	<body>
+		<h2 id="difi">&nbsp;</h2>
+		<div id="divCentral">
+			<img id="nave" src="img/coheteBlanco.png" alt="imagen nave">
+		</div>
+		<div id="indicadores">
+			<div id="velocidad">
+				<img id="velD" src="img/indicadorVelocidadPcFacil.png" alt="imagen velocimetro">
+				<img id="velM" src="img/velocidadVerde.png" alt="imagen velocimetro">
+				<div id="aguja">
+					<img id="imgAguja" src="img/agujaVelocidadPc.png" alt="imagen aguja">
+				</div>
+			</div>
+			<div id="fuel">
+				<img id="fuelD" src="img/indicadorFuelPc.png" alt="imagen fuel">
+				<img id="fuelM" src="img/indicadorFuelMovil.png" alt="imagen fuel">
+				<div id="fondoFuel">&nbsp;</div>
+			</div>
+			<div id="altura">
+				<img src="img/indicadorAlturaPc.png" alt="imagen altura">
+				<div id="fondoAltura">&nbsp;</div>
+			</div>
+		</div>
+		<div id="menu">
+			<button type="button" id="botAbout">About</button>
+			<button type="button" id="botInstruc">Instrucciones</button>
+			<button type="button" class="dificultad" id="botFacil">Fácil</button>
+			<button type="button" class="dificultad" id="botDificil">Difícil</button>
+		</div>
+		<div id="confirmacion">
+			<p id="textConfirm">Acceder a la página de About te hará salir del juego y perder tu progreso.</p>
+			<br/>
+			<p>¿Seguro que quieres salir?</p>
+			<button type="button" class="dificultad" id="botConfirm">Sí</button>
+			<button type="button" class="dificultad" id="botCancel">No</button>
+		</div>
+		<div id="resultadoPos">
+			<h1>¡Enhorabuena!</h1>
+			<p id="textResPos">Has estado a la altura de esta peligrosa maniobra y has conseguido aterrizar la nave a xxx px/s.</p>
+			<br/>
+			<p>¡Nos vemos en la próxima misión!</p>
+			<br/>
+			<button type="button" id="botResPos">Reiniciar</button>
+		</div>
+		<div id="resultadoNeg">
+			<h1>Vaya...</h1>
+			<p id="textResNeg">La misión ha sido un fracaso ya que has "aterrizado" la nave a xxx px/s y se ha estrellado.</p>
+			<br/>
+			<p>¡Sigue practicando!</p>
+			<br/>
+			<button type="button" id="botResNeg">Reiniciar</button>
+		</div>
+		<div id="botones">
+			<img id="botMenu" src="img/botonMenuPlay.png" alt="boton Play/Pausa">
+			<img id="botRestart" src="img/botonRestart.png" alt="boton restart">
+		</div>
+		<div id="luna">
+			<img src="img/luna.png" alt="imagen luna">
+		</div>
+	</body>
+</html>
